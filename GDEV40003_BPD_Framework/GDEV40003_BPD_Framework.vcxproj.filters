@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{f587ac1c-8a1b-4ed2-8237-99c6ed6859d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render">
+      <UniqueIdentifier>{d6e800d8-0e3d-422d-8d2d-8a1d81dcd332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess">
+      <UniqueIdentifier>{a174eb7f-4d51-4ee1-9b81-23122a105c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess">
+      <UniqueIdentifier>{a2fccf25-c7b8-48f3-a9f1-b42e47ebd4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{def5a4e1-07f6-4be2-851e-063951258052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files\chess</Filter>
+    </ClCompile>
+    <ClCompile Include="fen.cpp">
+      <Filter>Source Files\chess</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise.cpp">
+      <Filter>Source Files\chess</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files\chess</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header Files\chess</Filter>
+    </ClInclude>
+    <ClInclude Include="fen.h">
+      <Filter>Header Files\chess</Filter>
+    </ClInclude>
+    <ClInclude Include="bitwise.h">
+      <Filter>Header Files\chess</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="piece.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Header Files\chess</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
